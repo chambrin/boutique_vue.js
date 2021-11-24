@@ -3,7 +3,7 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
-export const enventBus = new Vue ({
+export const eventBus = new Vue ({
   data: {
     product: [
       {

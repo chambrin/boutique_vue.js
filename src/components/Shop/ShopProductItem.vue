@@ -21,7 +21,7 @@
 
 
 export default {
- props: ['product']
+ props: ['product'],
 }
 
 

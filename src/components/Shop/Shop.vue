@@ -5,8 +5,8 @@
 </template>
 
 <script>
-    import ShopProductsList from './ShopProductsList.vue'
-    import {evnentBus} from '../../main'
+    import ShopProductsList from './ShopProductsList.vue';
+    import {eventBus} from '../../main';
 
 
 export default {
@@ -19,8 +19,8 @@ export default {
         }      
     }, 
      created() {
-        this.products = evnentBus.products;
-        evnentBus.$on('update:products' , (products) => {
+        this.products = eventBus.products;
+        eventBus.$on('update:products' , (products) => {
             this.products = products;
         })
     },
