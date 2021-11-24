@@ -21,16 +21,7 @@
 
 
 export default {
-  data() {
-    return {
-      product: {
-        img:'https://cdn.comparez-malin.fr/cache/product/img/gigabyte/2021/26910/gigabyte-aero-17-2021-2.jpg',
-        title:'AERO 17',
-        description: 'AERO 17',
-        price: '4 229€',
-      }
-    }
-  }
+ props: ['product']
 }
 
 
